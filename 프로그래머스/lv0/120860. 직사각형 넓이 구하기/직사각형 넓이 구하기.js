@@ -9,29 +9,16 @@ function solution(dots) {
 
     let width = maxX - minX;
     let height = maxY - minY;
-    return width * height
+    return width * height;
 }
-
-solution([[1, 1], [2, 1], [2, 2], [1, 2]]);
-
-    
-    
-    
-    
-    
+        
 // function solution(dots) {
-//     let x = dots.map(a => a[0]).sort()
+//     let x = dots.map(a => a[0]).sort() // 둘다 마이너스일 경우 ! 테스트 1 통과못함sx)[-1,-1,-3,-3] -> 콜백함수를 넣어서 sorting 해주던가 길이 너비 곱해줄때 Math.abs 절대값 써야함
 //     let y = dots.map(a => a[1]).sort()
     
 //     let width = x[3] - x[0]
 //     let height = y[3] - y[0]
          
 //     return width * height;
-// }
-  
+// }  
 
-// function solution(dots) {
-//     const width = Math.max(...dots.map(a => a[0]))-Math.min(...dots.map(a => a[0]))
-//     const height = Math.max(...dots.map(a => a[1]))-Math.min(...dots.map(a => a[1]))
-//     return width*height
-// }
