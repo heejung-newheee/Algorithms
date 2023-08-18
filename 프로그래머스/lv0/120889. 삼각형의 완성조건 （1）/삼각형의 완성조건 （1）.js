@@ -12,7 +12,7 @@ function solution(sides) {
     
     let sortArr = sides.sort((a,b)=>{ return a-b});
     let sum = sortArr[0] + sortArr[1]
-       if(sum > sortArr[2] ){
+    if(sum > sortArr[2] ){
         return 1;
     }else {
         return 2;
