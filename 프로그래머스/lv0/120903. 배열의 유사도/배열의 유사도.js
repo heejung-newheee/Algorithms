@@ -7,8 +7,7 @@ function solution(s1, s2) {
             }else{
                 continue
             } 
-        }
-        
+        }        
     }
     return answer;
 }
