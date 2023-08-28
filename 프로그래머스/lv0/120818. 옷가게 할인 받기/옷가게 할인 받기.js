@@ -8,10 +8,7 @@ function solution(price) {
         }else if(price >= 100000 && price<300000){
             return Math.floor(price*0.95)
         }else {
-           return price; 
-            
+           return price;             
         }
     }
-
-
 }
