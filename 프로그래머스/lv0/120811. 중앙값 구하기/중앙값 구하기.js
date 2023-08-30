@@ -1,5 +1,5 @@
 function solution(array) {
-    let aa = array.length/2
-    let bb = array.sort((a,b)=>a-b)
-    return bb[Math.floor(aa)];
+    let center = array.length/2
+    let sort = array.sort((a,b)=>a-b)
+    return sort[Math.floor(center)];
 }
