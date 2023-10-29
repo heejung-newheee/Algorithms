@@ -7,4 +7,10 @@ function solution(numbers, n) {
         }
     }
     return answer;
+    
+    // let i = 0;
+    // while(answer <= n) {
+    //     answer += numbers[i++]
+    // }
+    // return answer;
 }
